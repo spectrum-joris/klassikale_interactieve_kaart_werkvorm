@@ -1,0 +1,38 @@
+{
+    "stad": {
+        "naam": "Gent",
+        "centrum": [51.0543, 3.7253]
+    },
+    "favorietePlaats": {
+        "naam": "Sint-Baafsplein",
+        "beschrijving": "Mijn favoriete plein in Gent.",
+        "coordinaten": [51.0536, 3.7268]
+    },
+    "school": {
+        "naam": "Campus Centrum",
+        "adres": "Lange Violettestraat 10, Gent (oefenadres)",
+        "coordinaten": [51.0476, 3.7312],
+        "straal": 420
+    },
+    "buurt": {
+        "naam": "Centrum-Zuid",
+        "beschrijving": "Mijn woonbuurt in Gent.",
+        "polygon": [
+            [51.0535, 3.7208],
+            [51.0545, 3.7295],
+            [51.0487, 3.7350],
+            [51.0454, 3.7275],
+            [51.0482, 3.7207]
+        ]
+    },
+    "route": {
+        "naam": "Van mijn buurt naar school",
+        "start": [51.0514, 3.7230],
+        "coordinates": [
+            [51.0507, 3.7241],
+            [51.0495, 3.7260],
+            [51.0487, 3.7283]
+        ],
+        "end": [51.0476, 3.7312]
+    }
+}

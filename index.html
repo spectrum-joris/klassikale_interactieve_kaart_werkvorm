@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn stad op de kaart</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mijn stad op de kaart</h1>
+        <p>Gent — mijn school, buurt, route en favoriete plaats</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Kaart</h2>
+            <div id="map"></div>
+        </section>
+
+        <section id="informatie">
+            <h2>Informatie</h2>
+            <p>Klik op een marker, cirkel, polygon of route.</p>
+            <h3 id="info-naam">Nog niets geselecteerd</h3>
+            <p id="info-type"></p>
+            <p id="info-detail"></p>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

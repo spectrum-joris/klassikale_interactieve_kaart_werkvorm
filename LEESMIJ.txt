@@ -1,0 +1,15 @@
+HERHALINGSLES 5AD - MIJN STAD OP DE KAART
+
+1. Open deze map in VS Code.
+2. Start index.html met Live Server.
+3. Een internetverbinding is nodig voor Leaflet en de kaarttegels.
+4. Klik op de marker, de cirkel, de polygon en de route.
+   Je krijgt telkens een popup en de informatie rechts verandert.
+
+Bestanden:
+- index.html: HTML-structuur
+- style.css: opmaak + noodzakelijke hoogte voor #map
+- stad.json: één object met geneste objecten en coördinatenarrays
+- script.js: aparte functies voor laden, tekenen en DOM-manipulatie
+
+Let op: de plaats- en schoolgegevens zijn oefengegevens.

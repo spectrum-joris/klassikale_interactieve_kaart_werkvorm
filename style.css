@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #1e293b;
+}
+
+header {
+    padding: 20px;
+    background: #173454;
+    color: white;
+}
+
+header h1 {
+    margin: 0 0 8px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+section {
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+}
+
+@media (max-width: 750px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
